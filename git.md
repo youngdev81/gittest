@@ -15,22 +15,20 @@ git commit -m "first commit"
 - 2 계정 생성
 ```sh
 - global : 별도 (local) 저장소별 계정 사용하지 않을경우 global 생략가능
-git config --global user.name 'youngdev81' // 사용자명
-git config --global user.email 'youngdev81@outlook.com' //  email
+git config --global user.name '사용자명' 
+git config --global user.email '사용자이메일' 
 ```
 
 ```sh
 - 저장소별 (local)계정 설정
-git config --local user.name 'youngdev81'
-git config --local user.email 'youngdev81@outlook.com'
+git config --local user.name '사용자명'
+git config --local user.email '사용자이메일'
 ```
 
 - 3 저장소 연결
 ```sh
 - dt-pricing
     git remote add origin https://oms-dev-scm.cloudzcp.io/dtp-common/oms-lib.git
-- local
-    git remote add origin https://github.com/youngdev81/gittest
 
     git push origin master 
 ```
