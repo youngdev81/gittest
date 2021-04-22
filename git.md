@@ -35,7 +35,7 @@ git config --local user.email 'youngdev81@outlook.com'
     git push origin master 
 ```
 ### 브랜치(branch)
-
+ :
 - 1 브랜치(branch) 생성
 ```sh
     git branch develop
@@ -56,6 +56,7 @@ or
 ```    
     결과 : Branch 'develop' set up to track remote branch 'develop' from 'origin'
 ```
+
 - 3 브랜치(branch) 목록확인
 ```sh
     git branch -a 
